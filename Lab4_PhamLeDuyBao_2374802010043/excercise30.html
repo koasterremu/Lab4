@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 30 - CSS Grid</title>
+  <link rel="stylesheet" href="style-30.css">
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">Header</div>
+    <div class="grid-item">Content</div>
+  </div>
+</body>
+</html>
+
+<!-- File: style-30.css -->
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  height: 200px;
+  background-color: #f0f0f0;
+}
+.grid-item {
+  background-color: #1b74e4;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+}
