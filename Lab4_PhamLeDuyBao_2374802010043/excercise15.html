@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 15 - Pseudo-Element</title>
+  <link rel="stylesheet" href="style-15.css">
+</head>
+<body>
+  <div class="container"></div>
+</body>
+</html>
+
+<!-- File: style-15.css -->
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: purple;
+}
+.container::after {
+  content: '';
+  display: block;
+  width: 150px;
+  height: 100px;
+  background-color: yellow;
+}
